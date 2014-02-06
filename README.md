@@ -15,3 +15,7 @@
 
 Example:
 after entering 'wonderful fr', pressing (ctrl-shift-l) will show 'merveilleux'
+
+Or full sentences as shown below (Albanian to English):
+
+<img src="http://lexoj.files.wordpress.com/2014/02/sb_final.gif"/>
