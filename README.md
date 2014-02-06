@@ -9,7 +9,7 @@
 #### Usage
 
 1. write a word or a sentence
-2. enter at the end the two letter code of the translated language
+2. enter at the end the two letter code of the translated language (fr, it, es, en, and so on)
 
 3. press `ctrl-shift-l`
 
