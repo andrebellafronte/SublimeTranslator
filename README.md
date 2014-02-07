@@ -1,4 +1,4 @@
-#### Sublime Text plugin to translate any text in any language using Google translate
+#### Sublime Text plugin to translate text in any language using Google translate
 
 
 
@@ -9,7 +9,7 @@
 #### Usage
 
 1. write a word or a sentence
-2. enter at the end the two letter code of the translated language (fr, it, es, en, and so on)
+2. when you want to translate, enter a two letter code to determine the translated language (fr, it, es, en, etc, Full list [here](https://developers.google.com/translate/v2/using_rest#language-params).)
 
 3. press `ctrl-shift-l`
 
