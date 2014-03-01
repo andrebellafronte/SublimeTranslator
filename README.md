@@ -4,7 +4,7 @@ Sublime Text 3 plugin to translate text in any language using Google translate
 
 #### Installation
 
-1. Clone this repo into `Packages` directory [Sublime Text 2 menu >> Preferences >> Browse Packages...]
+1. Clone this repo into `Packages` directory [Sublime Text 3 menu >> Preferences >> Browse Packages...]
 
 #### Usage
 
