@@ -30,8 +30,4 @@ class translator(sublime_plugin.TextCommand):
                             result = page[page.find(before_trans)+len(before_trans):]
                             output = result.split("<")[0]
                             output = output.replace('\r', '')
-<<<<<<< HEAD
                             self.view.replace(edit, line, output)
-=======
-                            self.view.replace(edit, line, output)
->>>>>>> 40ada975ae4eff34999f3682c362f7e71336eea0
