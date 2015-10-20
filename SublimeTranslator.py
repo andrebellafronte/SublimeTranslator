@@ -13,14 +13,11 @@ langs = ['af', 'sq', 'ar', 'az', 'eu', 'bn', 'be', 'bg', 'ca', 'hr', 'cs',
 def translate(from_lan, to_lan, text):
     before_trans = 'class="t0">'
 
-    link = "http://translate.google.com/m?hl=%s&sl=%s&q=%s" \
-        % (to_lan,
-           from_lan,
-           text.replace(" ", "+"))
+    link = "https://www.googleapis.com/language/translate/v2?key=AIzaSyAY3sOkFEEKmPX1wn16a6Dsqd9PbdTcMzE&target=%s&source=%s&q=%s" \
+        % (to_lan, from_lan, text.replace(" ", "+"))
 
     req = urllib.request.Request(
-        link, headers={'User-Agent':
-                       'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'})
+        link, headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36'})
 
     response = urllib.request.urlopen(req)
     the_page = response.read()
